@@ -1,0 +1,4 @@
+beautifulsoup4==4.9.3
+maskpass==0.3.7
+selenium==4.14.0
+tabulate==0.9.0
