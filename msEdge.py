@@ -77,7 +77,7 @@ def getActivities(driver, total):
                         TOTAL += int(table_row[2])  
                     table_sem.append(table_row)
 
-    print(tabulate(table_sem, headers=["Activity Category", "Name", "Rating","Status"]))
+    print(tabulate(table_sem, headers=["Activity Category", "Name", "Rating", "Status"]))
     #print(TOTAL)
 
 
