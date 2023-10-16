@@ -11,14 +11,8 @@
 
 ## How to use this 💻
 
-- Clone this repository or download the zip file.
-```bash
-git clone https://github.com/notalanjoseph/RSMS-ActivityPoints-Calculator
-```
-- Change directory to RSMS-ActivityPoints-Calculator.
-```bash
-cd RSMS-ActivityPoints-Calculator
-```
+- Clone this repository or download and extract the zip file.
+- Open terminal from the folder RSMS-ActivityPoints-Calculator.
 - Install the python dependencies using `pip` or `pip3`.
 ```bash
 pip install -r requirements.txt
