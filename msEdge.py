@@ -62,22 +62,22 @@ def getActivities(driver, total):
                         heading = str(cell.find("font").find("b").text)
                         if heading == "Name of the Course" or heading == "Name of event" or heading == "Name of the Conference/ event" or heading == "Name of the Company and Address" or heading == "Name of Exam" or heading == "Nameof company" or heading == "Name/ title of patent" or heading == "Name and Details of product/ innovation/idea":
                             columns.append(j)
-                        elif heading == "Point Status":
-                            columns.append(j)
                         elif heading == "Rating By Faculty":
                             columns.append(j)
+                        elif heading == "Point Status":
+                            columns.insert(2, j)
                         j += 1        
                 else: #data 
                     cells = [cell for cell in row.find_all('td')]
                     table_row = []
                     for j in columns:
-                        table_row.append(cells[j].text)
+                        table_row.append((cells[j].text).replace('\n', ' ')[:50])
                         #print(cells[j].text, end = '\t')
-                    if table_row[2] != '':
-                        TOTAL += int(table_row[2])  
+                    if table_row[3] != '':
+                        TOTAL += int(table_row[3])  
                     table_sem.append(table_row)
 
-    print(tabulate(table_sem, headers=["Activity Category", "Name", "Rating", "Status"]))
+    print(tabulate(table_sem, headers=["Activity Category", "Name", "Status", "Rating"], tablefmt="github"))
     #print(TOTAL)
 
 
