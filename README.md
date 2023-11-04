@@ -1,5 +1,5 @@
 # RSMS-ActivityPoints-Tracker
-![demo img](https://drive.google.com/file/d/1nt9kdB0VJZebW9mVA_GIPnzgCk5f18eC/view?usp=drive_link)
+![demo img](https://github.com/notalanjoseph/RSMS-ActivityPoints-Tracker/blob/main/demo.png)
 ![documentation](https://img.shields.io/readthedocs/gspread?logo=readthedocs)
 ![python version](https://img.shields.io/pypi/pyversions/gspread?style=pypi)
 
