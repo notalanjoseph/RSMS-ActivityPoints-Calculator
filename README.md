@@ -5,7 +5,7 @@
 
 RSET students submit their certificates in RSMS website categorically for activity points. Finding out how much points one has accumulated so far is a hassle, as RSMS doesnt have a page that shows total points.  
 This Python script solves the problem by automating login and scraping the RSMS website using Selenium & bs4 to calculate and display the total activity points gained by a student.  
-Tracking of activity status is also incorporated, activities are displayed semester wise with status and activity point awarded for each activity.
+Tracking of activity status is also incorporated- activities are displayed semester wise with status & points awarded for each activity.
 
 ## Prerequisites 🏁
 
