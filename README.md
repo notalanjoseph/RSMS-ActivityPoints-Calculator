@@ -10,7 +10,7 @@ Tracking of activity status is also incorporated- activities are displayed semes
 ## Prerequisites 🏁
 
 - Python version 3.7 or higher.
-- pip (any recent version)
+- pip (any recent version).
 - Microsoft Edge browser.
 - Internet connection.
 
@@ -27,4 +27,4 @@ pip install -r requirements.txt
 ```bash
 python msEdge.py
 ``` 
-- Thats it! The automated browser will open in your system and do the work. The program may take a few minutes to complete based on the no.of semesters. The result will be displayed in your terminal.
+- That's it! The automated browser will open in your system and do the work. The program may take a few minutes to complete based on the no.of semesters. The result will be displayed in your terminal.
